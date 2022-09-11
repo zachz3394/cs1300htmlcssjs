@@ -38,7 +38,7 @@ const updatePage = async () => {
   newElement.innerHTML = "Fruits with sugar > 15: " + highSugar;
 
   // TODO: Append your new element to the page
-  document.getElementById('cs1300-gallery').prepend(newElement);
+  document.getElementById('cs1300-gallery').append(newElement);
 }
 
 // SAMPLE CODE of how to create and append a new HTML element to the page
